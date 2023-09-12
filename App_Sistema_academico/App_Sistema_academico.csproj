@@ -70,6 +70,7 @@
     <Content Include="estilos.css" />
     <Content Include="frm_cursos.aspx" />
     <Content Include="Frm_estudiantes.aspx" />
+    <Content Include="frm_matriculas.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -89,6 +90,13 @@
     </Compile>
     <Compile Include="Frm_estudiantes.aspx.designer.cs">
       <DependentUpon>Frm_estudiantes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm_matriculas.aspx.cs">
+      <DependentUpon>frm_matriculas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frm_matriculas.aspx.designer.cs">
+      <DependentUpon>frm_matriculas.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

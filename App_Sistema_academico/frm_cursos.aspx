@@ -57,8 +57,8 @@
        
         
         <asp:Button  class="btn btn-block text-center my-3" ID="btn_registrar" runat="server" Text="Registrar" OnClick="btn_registrar_Click"/>
-        <asp:Button  class="btn btn-block  text-center my-3" ID="btn_consultar" runat="server" Text="Consultar"/>
-        <asp:Button class="btn btn-block  text-center my-3" ID="btn_limpiar" runat="server" Text="Limpiar" />
+        <asp:Button  class="btn btn-block  text-center my-3" ID="btn_consultar" runat="server" Text="Consultar" OnClick="btn_consultar_Click"/>
+        <asp:Button class="btn btn-block  text-center my-3" ID="btn_limpiar" runat="server" Text="Limpiar" OnClick="btn_limpiar_Click" />
     <br />
                 <asp:Label ID="lbl_mensaje" runat="server" Text=""></asp:Label>
     </form>

@@ -14,7 +14,7 @@
 </head>
 <body>
     <div class="wrapper bg-white">
-    <div class="h2 text-center">Matrícula de estudiates</div>
+    <div class="h2 text-center">Registrar estudiantes</div>
     <form class="pt-3" runat="server">
         <div class="form-group py-2">
             <div class="input-field"> 
