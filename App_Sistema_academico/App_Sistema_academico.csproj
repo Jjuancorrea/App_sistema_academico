@@ -68,12 +68,21 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="estilos.css" />
+    <Content Include="frm_cursos.aspx" />
     <Content Include="Frm_estudiantes.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="cls_conexion.cs" />
+    <Compile Include="cls_registrar_cursos.cs" />
     <Compile Include="cls_registrar_estudiante.cs" />
+    <Compile Include="frm_cursos.aspx.cs">
+      <DependentUpon>frm_cursos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frm_cursos.aspx.designer.cs">
+      <DependentUpon>frm_cursos.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Frm_estudiantes.aspx.cs">
       <DependentUpon>Frm_estudiantes.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

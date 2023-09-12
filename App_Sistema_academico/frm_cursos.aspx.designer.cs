@@ -11,7 +11,7 @@ namespace App_Sistema_academico
 {
 
 
-    public partial class Frm_estudiantes
+    public partial class frm_cursos
     {
 
         /// <summary>
@@ -33,67 +33,49 @@ namespace App_Sistema_academico
         protected global::System.Web.UI.WebControls.TextBox txtNombre;
 
         /// <summary>
-        /// Control txtContacto.
+        /// Control txtCreditos.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtContacto;
+        protected global::System.Web.UI.WebControls.TextBox txtCreditos;
 
         /// <summary>
-        /// Control txtDireccion.
+        /// Control cbx_estado.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtDireccion;
+        protected global::System.Web.UI.WebControls.DropDownList cbx_estado;
 
         /// <summary>
-        /// Control txtAcudiente.
+        /// Control SqlDataEstado.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtAcudiente;
+        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataEstado;
 
         /// <summary>
-        /// Control cbx_estrato.
+        /// Control txtValor.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cbx_estrato;
+        protected global::System.Web.UI.WebControls.TextBox txtValor;
 
         /// <summary>
-        /// Control SqlDataSourceEstrato.
+        /// Control txtContenidos.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSourceEstrato;
-
-        /// <summary>
-        /// Control cbx_sexo.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cbx_sexo;
-
-        /// <summary>
-        /// Control SqlDataSource1.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource1;
+        protected global::System.Web.UI.WebControls.TextBox txtContenidos;
 
         /// <summary>
         /// Control btn_registrar.

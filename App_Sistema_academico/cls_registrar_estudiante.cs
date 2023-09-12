@@ -55,12 +55,12 @@ namespace App_Sistema_academico
                 Lectura = con.ExecuteReader();
                 if (Lectura.Read() == true)
                 {
-                    str_nombre = Convert.ToString(Lectura[0]);
-                    str_contacto = Convert.ToString(Lectura[1]);
-                    str_direccion = Convert.ToString(Lectura[2]);
-                    str_acudiente = Convert.ToString(Lectura[3]);
-                    str_estrato = Convert.ToString(Lectura[4]);
-                    str_sexo = Convert.ToString(Lectura[5]);
+                    str_nombre = Convert.ToString(Lectura[1]);
+                    str_contacto = Convert.ToString(Lectura[2]);
+                    str_direccion = Convert.ToString(Lectura[3]);
+                    str_acudiente = Convert.ToString(Lectura[4]);
+                    str_estrato = Convert.ToString(Lectura[5]);
+                    str_sexo = Convert.ToString(Lectura[6]);
                     str_mensaje = "";
                 }
             }
