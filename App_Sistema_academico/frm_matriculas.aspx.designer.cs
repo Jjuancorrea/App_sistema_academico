@@ -42,31 +42,13 @@ namespace App_Sistema_academico
         protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSourceEstrato;
 
         /// <summary>
-        /// Control txtContacto.
+        /// Control txtSubtotal.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtContacto;
-
-        /// <summary>
-        /// Control txtDireccion.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtDireccion;
-
-        /// <summary>
-        /// Control txtAcudiente.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtAcudiente;
+        protected global::System.Web.UI.WebControls.TextBox txtSubtotal;
 
         /// <summary>
         /// Control btn_registrar.
